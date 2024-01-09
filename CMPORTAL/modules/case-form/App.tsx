@@ -159,7 +159,7 @@ function App() {
             />
           )}
             <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'flex-end' }}>
-              {!isFirstStep && currentStepIndex !== 0 && (
+              {!isFirstStep && currentStepIndex !== 0 && currentStepIndex !== 1 && (
                 <Button
                   type="button"
                   onClick={back}
